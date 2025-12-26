@@ -1,0 +1,43 @@
+# Minikube related files
+.minikube/
+minikube-*
+
+# Kubernetes config
+.kube/
+kubeconfig
+*.kubeconfig
+
+# Helm files
+*.tgz
+helm/airflow/charts/
+helm/airflow/Chart.lock
+
+# Airflow logs and data
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+airflow.db
+airflow.cfg
+unittests.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.DS_Store

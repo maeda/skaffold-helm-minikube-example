@@ -1,0 +1,9 @@
+apiVersion: skaffold/v4beta7
+kind: Config
+
+requires:
+  - configs: ["airflow-local"]
+    git:
+      repo: https://github.com/maeda/skaffold-helm-minikube-remote.git
+      path: skaffold-remote-dev.yaml
+      ref: main
